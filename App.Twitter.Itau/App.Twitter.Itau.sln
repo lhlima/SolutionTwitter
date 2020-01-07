@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{E58A0E01-BA5F-48B8-8F36-0D581929ACE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{EA70B8F9-D608-44C9-8D8C-B5AF75674B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.Itau.ConsoleApp", "Prova.Itau.ConsoleApp\Prova.Itau.ConsoleApp.csproj", "{718AEC08-1B4B-4D6D-9F30-E4F909384F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova.Itau.Twitter.WebAPI", "Prova.Itau.Twitter.WebAPI\Prova.Itau.Twitter.WebAPI.csproj", "{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{82C3361E-8480-4720-9B19-D7AE89154B55}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Dockerfile = Database\Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{718AEC08-1B4B-4D6D-9F30-E4F909384F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718AEC08-1B4B-4D6D-9F30-E4F909384F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718AEC08-1B4B-4D6D-9F30-E4F909384F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718AEC08-1B4B-4D6D-9F30-E4F909384F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{718AEC08-1B4B-4D6D-9F30-E4F909384F59} = {E58A0E01-BA5F-48B8-8F36-0D581929ACE1}
+		{3C6FF2D4-026E-43DE-8FEC-AB3A749DA5B7} = {EA70B8F9-D608-44C9-8D8C-B5AF75674B6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED4EF3C6-62C5-4DA3-AF8A-DF9D96A25033}
+	EndGlobalSection
+EndGlobal

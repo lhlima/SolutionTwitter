@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Prova.Itau.ConsoleApp": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

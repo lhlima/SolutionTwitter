@@ -1,0 +1,46 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:58127",
+      "sslPort": 44388
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Prova.Itau.WebAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "commandLineArgs": "RUN apt-get update && apt-get install -y wget ca-certificates gnupg && echo 'deb http://apt.newrelic.com/debian/ newrelic non-free' | tee /etc/apt/sources.list.d/newrelic.list && wget https://download.newrelic.com/548C16BF.gpg && apt-key add 548C16BF.gpg && apt-get update && apt-get install -y newrelic-netcore20-agent",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
+      "environmentVariables": {
+        "CORECLR_NEWRELIC_HOME": "/usr/local/newrelic-netcore20-agent",
+        "NEW_RELIC_LICENSE_KEY": "d46287c5f5011985565d1e6a5328c2c512b7NRAL",
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{36032161-FFC0-4B61-B559-F6C5D41BAE5A}",
+        "CORECLR_PROFILER_PATH": "/usr/local/newrelic-netcore20-agent/libNewRelicProfiler.so",
+        "NEW_RELIC_APP_NAME": "Prova.Itau.WebAPI"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
